@@ -70,4 +70,4 @@ export default defineComponent({
 Este componente atualmente não utiliza slots.
 
 #### Referências
-* https://primevue.org/cascadeselect/ (based on primevue)
+* https://primevue.org/password/ (based on primevue)
