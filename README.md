@@ -57,6 +57,7 @@ export default defineComponent({
 * show_forca: (Boolean) Exibe ou não o medidor de força da senha. Defina como true para mostrar.
 * show_list: (Boolean) Exibe ou não uma lista com os requisitos da senha. Defina como true para mostrar.
 * id: (String) Um identificador único para o campo de senha. Necessário para associar o rótulo ao input.
+* autocompletOff: (Boolean) Ativa ou desativa o autocomplete-off no imput.  Defina como true para não autocompletar o campo.
 
 #### Events
 * @update: Este evento é emitido sempre que a senha for atualizada. O valor da senha atualizada é passado como argumento para a função.

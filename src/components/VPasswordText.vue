@@ -43,6 +43,7 @@
       components: {},
       props: {
          show_list: {default: true},
+         autocompletOff: {default: true},
          disabled: {default: false},
          show_forca: {default: true},
          variant: {default: 'outlined'},
@@ -112,6 +113,16 @@
          this.temNumero = false
          this.temEspecial = false
          this.maior8 = false
+
+ 									if (this.autocompletOff){
+												document.getElementById(this.id).addEventListener('focusin', function(event) {
+                  if (event.target.tagName === 'INPUT' || event.target.tagName === 'TEXTAREA' || event.target.tagName === 'SELECT') {
+                     event.target.setAttribute('autocomplete', 'off');
+                  }
+               });
+									}
+    
+         
       },
       computed: {
          passwordAux: {

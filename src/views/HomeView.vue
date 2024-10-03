@@ -9,7 +9,7 @@
       <v-row justify="center">
         <v-col cols="6">
           Mostra a força da senha e a lista
-          <v-password-text :password="senha"
+          <v-password-text :password="senha" :autocompletOff="true"
                            @update="(v)=>{senha=v}"
                            label="Senha"
                            :show_forca="true"
@@ -19,7 +19,7 @@
         </v-col>
         <v-col cols="6">
           Mostra a força da senha e esconde lista
-          <v-password-text :password="senha1"
+          <v-password-text :password="senha1" :autocompletOff="false"
                            @update="(v)=>{senha1=v}"
                            label="Senha"
                            :show_forca="true"
