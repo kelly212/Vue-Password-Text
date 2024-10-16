@@ -2,6 +2,7 @@
 			<div>
 						<v-text-field :id="id"
 																				v-model="passwordAux"
+																				:class="classe"
 																				:label="label"
 																				:disabled="disabled"
 																				:variant="variant"
@@ -49,6 +50,7 @@
          variant: {default: 'outlined'},
          icon: {default: 'mdi-lock'},
          density: {default: 'compact'},
+         classe: {default: ''},
          label: {default: 'Label'},
          password: {default: ''},
          id: {default: 'menu-activator'},
