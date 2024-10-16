@@ -14,6 +14,7 @@
                            label="Senha"
                            :show_forca="true"
                            :show_list="true"
+                           :items="teste"
                            id="senha">
           </v-password-text>
         </v-col>
@@ -66,6 +67,13 @@ export default defineComponent({
     senha1: null,
     senha2: null,
     senha3: null,
+    teste: [
+      {cor: '#a7a7a7', descricao: 'Pelo menos uma letra maiuscula (A-Z)', key: 'maiuscula'},
+      {cor: '#a7a7a7', descricao: 'Pelo menos uma letra minuscula (a-Z)', key: 'minuscula'},
+      {cor: '#a7a7a7', descricao: 'Pelo menos um número (0-9)', key: 'numero'},
+      {cor: '#a7a7a7', descricao: 'Pelo menos um caracter especial (#%!_@)', key: 'especial'},
+      {cor: '#a7a7a7', descricao: 'Minimo 7 caractéres', key: 'minimo'},
+    ]
   
   }),
 
