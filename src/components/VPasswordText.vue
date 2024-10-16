@@ -63,7 +63,7 @@
          temNumero: true,
          temEspecial: true,
 
-         disabled: true,
+         // disabled: true,
          senha: null,
          color: 'gray',
          select: ['Vuetify', 'Programming'],
