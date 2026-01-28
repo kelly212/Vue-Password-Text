@@ -1,6 +1,6 @@
 {
   "name": "v-password-text",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Um é um componente Vue.js compatível com Vuetify 3.x, customizado para exibir e gerenciar um campo de senha, com recursos adicionais como verificação de força de senha e uma lista de requisitos.",
   "author": "Kelly",
   "main": "src/index.js",
